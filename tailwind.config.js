@@ -2,6 +2,7 @@
 module.exports = {
   darkMode: "class",
   content: ["./src/**/*.{html,js}"],
+  safelist: [{ pattern: /^btn-/ }],
   theme: {
     extend: {
       keyframes: {

@@ -633,10 +633,2707 @@ h6{
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
 }
 
-.btn-\[\#000\]{
+.btn-inherit{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: inherit;
+  color: black;
+}
+
+.btn-current{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: currentColor;
+  color: black;
+}
+
+.btn-transparent{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+
+.btn-black{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
   background-color: #000;
+  color: white;
+}
+
+.btn-white{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+
+.btn-slate-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f8fafc;
+  color: black;
+}
+
+.btn-slate-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f1f5f9;
+  color: black;
+}
+
+.btn-slate-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e2e8f0;
+  color: black;
+}
+
+.btn-slate-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #cbd5e1;
+  color: black;
+}
+
+.btn-slate-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #94a3b8;
+  color: black;
+}
+
+.btn-slate-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #64748b;
+  color: white;
+}
+
+.btn-slate-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #475569;
+  color: white;
+}
+
+.btn-slate-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #334155;
+  color: white;
+}
+
+.btn-slate-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1e293b;
+  color: white;
+}
+
+.btn-slate-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0f172a;
+  color: white;
+}
+
+.btn-gray-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f9fafb;
+  color: black;
+}
+
+.btn-gray-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f3f4f6;
+  color: black;
+}
+
+.btn-gray-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e5e7eb;
+  color: black;
+}
+
+.btn-gray-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d1d5db;
+  color: black;
+}
+
+.btn-gray-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #9ca3af;
+  color: black;
+}
+
+.btn-gray-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #6b7280;
+  color: white;
+}
+
+.btn-gray-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4b5563;
+  color: white;
+}
+
+.btn-gray-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #374151;
+  color: white;
+}
+
+.btn-gray-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+.btn-gray-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #111827;
+  color: white;
+}
+
+.btn-zinc-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fafafa;
+  color: black;
+}
+
+.btn-zinc-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f4f4f5;
+  color: black;
+}
+
+.btn-zinc-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e4e4e7;
+  color: black;
+}
+
+.btn-zinc-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d4d4d8;
+  color: black;
+}
+
+.btn-zinc-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a1a1aa;
+  color: black;
+}
+
+.btn-zinc-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #71717a;
+  color: white;
+}
+
+.btn-zinc-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #52525b;
+  color: white;
+}
+
+.btn-zinc-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #3f3f46;
+  color: white;
+}
+
+.btn-zinc-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #27272a;
+  color: white;
+}
+
+.btn-zinc-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #18181b;
+  color: white;
+}
+
+.btn-neutral-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fafafa;
+  color: black;
+}
+
+.btn-neutral-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.btn-neutral-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.btn-neutral-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d4d4d4;
+  color: black;
+}
+
+.btn-neutral-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a3a3a3;
+  color: black;
+}
+
+.btn-neutral-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #737373;
+  color: white;
+}
+
+.btn-neutral-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #525252;
+  color: white;
+}
+
+.btn-neutral-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #404040;
+  color: white;
+}
+
+.btn-neutral-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #262626;
+  color: white;
+}
+
+.btn-neutral-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #171717;
+  color: white;
+}
+
+.btn-stone-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fafaf9;
+  color: black;
+}
+
+.btn-stone-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f5f5f4;
+  color: black;
+}
+
+.btn-stone-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e7e5e4;
+  color: black;
+}
+
+.btn-stone-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d6d3d1;
+  color: black;
+}
+
+.btn-stone-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a8a29e;
+  color: black;
+}
+
+.btn-stone-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #78716c;
+  color: white;
+}
+
+.btn-stone-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #57534e;
+  color: white;
+}
+
+.btn-stone-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #44403c;
+  color: white;
+}
+
+.btn-stone-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #292524;
+  color: white;
+}
+
+.btn-stone-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1c1917;
+  color: white;
+}
+
+.btn-red-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fef2f2;
+  color: black;
+}
+
+.btn-red-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fee2e2;
+  color: black;
+}
+
+.btn-red-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fecaca;
+  color: black;
+}
+
+.btn-red-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fca5a5;
+  color: black;
+}
+
+.btn-red-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f87171;
+  color: black;
+}
+
+.btn-red-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ef4444;
+  color: black;
+}
+
+.btn-red-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-red-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #b91c1c;
+  color: white;
+}
+
+.btn-red-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #991b1b;
+  color: white;
+}
+
+.btn-red-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #7f1d1d;
+  color: white;
+}
+
+.btn-orange-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fff7ed;
+  color: black;
+}
+
+.btn-orange-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ffedd5;
+  color: black;
+}
+
+.btn-orange-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fed7aa;
+  color: black;
+}
+
+.btn-orange-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fdba74;
+  color: black;
+}
+
+.btn-orange-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fb923c;
+  color: black;
+}
+
+.btn-orange-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f97316;
+  color: black;
+}
+
+.btn-orange-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ea580c;
+  color: black;
+}
+
+.btn-orange-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #c2410c;
+  color: white;
+}
+
+.btn-orange-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #9a3412;
+  color: white;
+}
+
+.btn-orange-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #7c2d12;
+  color: white;
+}
+
+.btn-amber-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fffbeb;
+  color: black;
+}
+
+.btn-amber-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fef3c7;
+  color: black;
+}
+
+.btn-amber-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fde68a;
+  color: black;
+}
+
+.btn-amber-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fcd34d;
+  color: black;
+}
+
+.btn-amber-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fbbf24;
+  color: black;
+}
+
+.btn-amber-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f59e0b;
+  color: black;
+}
+
+.btn-amber-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d97706;
+  color: black;
+}
+
+.btn-amber-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #b45309;
+  color: white;
+}
+
+.btn-amber-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #92400e;
+  color: white;
+}
+
+.btn-amber-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #78350f;
+  color: white;
+}
+
+.btn-yellow-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fefce8;
+  color: black;
+}
+
+.btn-yellow-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fef9c3;
+  color: black;
+}
+
+.btn-yellow-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fef08a;
+  color: black;
+}
+
+.btn-yellow-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fde047;
+  color: black;
+}
+
+.btn-yellow-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #facc15;
+  color: black;
+}
+
+.btn-yellow-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #eab308;
+  color: black;
+}
+
+.btn-yellow-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ca8a04;
+  color: black;
+}
+
+.btn-yellow-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a16207;
+  color: white;
+}
+
+.btn-yellow-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #854d0e;
+  color: white;
+}
+
+.btn-yellow-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #713f12;
+  color: white;
+}
+
+.btn-lime-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f7fee7;
+  color: black;
+}
+
+.btn-lime-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ecfccb;
+  color: black;
+}
+
+.btn-lime-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d9f99d;
+  color: black;
+}
+
+.btn-lime-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #bef264;
+  color: black;
+}
+
+.btn-lime-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a3e635;
+  color: black;
+}
+
+.btn-lime-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #84cc16;
+  color: black;
+}
+
+.btn-lime-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #65a30d;
+  color: black;
+}
+
+.btn-lime-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4d7c0f;
+  color: white;
+}
+
+.btn-lime-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #3f6212;
+  color: white;
+}
+
+.btn-lime-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #365314;
+  color: white;
+}
+
+.btn-green-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f0fdf4;
+  color: black;
+}
+
+.btn-green-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #dcfce7;
+  color: black;
+}
+
+.btn-green-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #bbf7d0;
+  color: black;
+}
+
+.btn-green-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #86efac;
+  color: black;
+}
+
+.btn-green-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4ade80;
+  color: black;
+}
+
+.btn-green-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #22c55e;
+  color: black;
+}
+
+.btn-green-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #16a34a;
+  color: black;
+}
+
+.btn-green-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #15803d;
+  color: white;
+}
+
+.btn-green-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #166534;
+  color: white;
+}
+
+.btn-green-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #14532d;
+  color: white;
+}
+
+.btn-emerald-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ecfdf5;
+  color: black;
+}
+
+.btn-emerald-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d1fae5;
+  color: black;
+}
+
+.btn-emerald-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a7f3d0;
+  color: black;
+}
+
+.btn-emerald-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #6ee7b7;
+  color: black;
+}
+
+.btn-emerald-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #34d399;
+  color: black;
+}
+
+.btn-emerald-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #10b981;
+  color: black;
+}
+
+.btn-emerald-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #059669;
+  color: white;
+}
+
+.btn-emerald-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #047857;
+  color: white;
+}
+
+.btn-emerald-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #065f46;
+  color: white;
+}
+
+.btn-emerald-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #064e3b;
+  color: white;
+}
+
+.btn-teal-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f0fdfa;
+  color: black;
+}
+
+.btn-teal-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ccfbf1;
+  color: black;
+}
+
+.btn-teal-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #99f6e4;
+  color: black;
+}
+
+.btn-teal-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #5eead4;
+  color: black;
+}
+
+.btn-teal-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #2dd4bf;
+  color: black;
+}
+
+.btn-teal-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #14b8a6;
+  color: black;
+}
+
+.btn-teal-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0d9488;
+  color: white;
+}
+
+.btn-teal-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0f766e;
+  color: white;
+}
+
+.btn-teal-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #115e59;
+  color: white;
+}
+
+.btn-teal-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #134e4a;
+  color: white;
+}
+
+.btn-cyan-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ecfeff;
+  color: black;
+}
+
+.btn-cyan-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #cffafe;
+  color: black;
+}
+
+.btn-cyan-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a5f3fc;
+  color: black;
+}
+
+.btn-cyan-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #67e8f9;
+  color: black;
+}
+
+.btn-cyan-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #22d3ee;
+  color: black;
+}
+
+.btn-cyan-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #06b6d4;
+  color: black;
+}
+
+.btn-cyan-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0891b2;
+  color: white;
+}
+
+.btn-cyan-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0e7490;
+  color: white;
+}
+
+.btn-cyan-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #155e75;
+  color: white;
+}
+
+.btn-cyan-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #164e63;
+  color: white;
+}
+
+.btn-sky-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f0f9ff;
+  color: black;
+}
+
+.btn-sky-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e0f2fe;
+  color: black;
+}
+
+.btn-sky-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #bae6fd;
+  color: black;
+}
+
+.btn-sky-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #7dd3fc;
+  color: black;
+}
+
+.btn-sky-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #38bdf8;
+  color: black;
+}
+
+.btn-sky-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0ea5e9;
+  color: black;
+}
+
+.btn-sky-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0284c7;
+  color: white;
+}
+
+.btn-sky-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0369a1;
+  color: white;
+}
+
+.btn-sky-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #075985;
+  color: white;
+}
+
+.btn-sky-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #0c4a6e;
+  color: white;
+}
+
+.btn-blue-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #eff6ff;
+  color: black;
+}
+
+.btn-blue-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #dbeafe;
+  color: black;
+}
+
+.btn-blue-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #bfdbfe;
+  color: black;
+}
+
+.btn-blue-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #93c5fd;
+  color: black;
+}
+
+.btn-blue-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #60a5fa;
+  color: black;
+}
+
+.btn-blue-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #3b82f6;
+  color: black;
+}
+
+.btn-blue-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-blue-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.btn-blue-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1e40af;
+  color: white;
+}
+
+.btn-blue-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.btn-indigo-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #eef2ff;
+  color: black;
+}
+
+.btn-indigo-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e0e7ff;
+  color: black;
+}
+
+.btn-indigo-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #c7d2fe;
+  color: black;
+}
+
+.btn-indigo-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a5b4fc;
+  color: black;
+}
+
+.btn-indigo-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #818cf8;
+  color: black;
+}
+
+.btn-indigo-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #6366f1;
+  color: white;
+}
+
+.btn-indigo-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4f46e5;
+  color: white;
+}
+
+.btn-indigo-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4338ca;
+  color: white;
+}
+
+.btn-indigo-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #3730a3;
+  color: white;
+}
+
+.btn-indigo-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #312e81;
+  color: white;
+}
+
+.btn-violet-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f5f3ff;
+  color: black;
+}
+
+.btn-violet-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ede9fe;
+  color: black;
+}
+
+.btn-violet-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ddd6fe;
+  color: black;
+}
+
+.btn-violet-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #c4b5fd;
+  color: black;
+}
+
+.btn-violet-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a78bfa;
+  color: black;
+}
+
+.btn-violet-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #8b5cf6;
+  color: black;
+}
+
+.btn-violet-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #7c3aed;
+  color: white;
+}
+
+.btn-violet-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #6d28d9;
+  color: white;
+}
+
+.btn-violet-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #5b21b6;
+  color: white;
+}
+
+.btn-violet-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #4c1d95;
+  color: white;
+}
+
+.btn-purple-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #faf5ff;
+  color: black;
+}
+
+.btn-purple-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f3e8ff;
+  color: black;
+}
+
+.btn-purple-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e9d5ff;
+  color: black;
+}
+
+.btn-purple-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d8b4fe;
+  color: black;
+}
+
+.btn-purple-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #c084fc;
+  color: black;
+}
+
+.btn-purple-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a855f7;
+  color: black;
+}
+
+.btn-purple-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #9333ea;
+  color: white;
+}
+
+.btn-purple-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #7e22ce;
+  color: white;
+}
+
+.btn-purple-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #6b21a8;
+  color: white;
+}
+
+.btn-purple-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #581c87;
+  color: white;
+}
+
+.btn-fuchsia-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fdf4ff;
+  color: black;
+}
+
+.btn-fuchsia-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fae8ff;
+  color: black;
+}
+
+.btn-fuchsia-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f5d0fe;
+  color: black;
+}
+
+.btn-fuchsia-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f0abfc;
+  color: black;
+}
+
+.btn-fuchsia-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e879f9;
+  color: black;
+}
+
+.btn-fuchsia-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #d946ef;
+  color: black;
+}
+
+.btn-fuchsia-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #c026d3;
+  color: black;
+}
+
+.btn-fuchsia-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #a21caf;
+  color: white;
+}
+
+.btn-fuchsia-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #86198f;
+  color: white;
+}
+
+.btn-fuchsia-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #701a75;
+  color: white;
+}
+
+.btn-pink-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fdf2f8;
+  color: black;
+}
+
+.btn-pink-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fce7f3;
+  color: black;
+}
+
+.btn-pink-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fbcfe8;
+  color: black;
+}
+
+.btn-pink-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f9a8d4;
+  color: black;
+}
+
+.btn-pink-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f472b6;
+  color: black;
+}
+
+.btn-pink-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ec4899;
+  color: black;
+}
+
+.btn-pink-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #db2777;
+  color: black;
+}
+
+.btn-pink-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #be185d;
+  color: white;
+}
+
+.btn-pink-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #9d174d;
+  color: white;
+}
+
+.btn-pink-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #831843;
+  color: white;
+}
+
+.btn-rose-50{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fff1f2;
+  color: black;
+}
+
+.btn-rose-100{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #ffe4e6;
+  color: black;
+}
+
+.btn-rose-200{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fecdd3;
+  color: black;
+}
+
+.btn-rose-300{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fda4af;
+  color: black;
+}
+
+.btn-rose-400{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #fb7185;
+  color: black;
+}
+
+.btn-rose-500{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #f43f5e;
+  color: black;
+}
+
+.btn-rose-600{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #e11d48;
+  color: white;
+}
+
+.btn-rose-700{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #be123c;
+  color: white;
+}
+
+.btn-rose-800{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #9f1239;
+  color: white;
+}
+
+.btn-rose-900{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #881337;
   color: white;
 }
 
@@ -1350,6 +4047,18 @@ h6{
 
 .caption-bottom{
   caption-side: bottom;
+}
+
+.btn-\[\#333cff\]{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  background-color: #333cff;
+  color: white;
 }
 
 .hover\:bg-white\/10:hover{
